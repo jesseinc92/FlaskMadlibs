@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    background-color: #FFCB77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Caveat Brush', cursive;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #227C9D;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inputs_container {
+    display: flex;
+}
+
+#first_form {
+    color: #FE6D73;
+}
+
+#first_form * {
+    margin: 1rem;
+}
+
+#first_form input {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 0.5rem;
+    background-color: #FEF9EF;
+    border: none;
+}
+
+#first_form button {
+    margin: 0 auto;
+    font: 1.25rem 'Caveat Brush', cursive;
+    color: #FEF9EF;
+    background-color: #17C3B2;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+}

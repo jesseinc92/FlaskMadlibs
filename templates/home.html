@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+
+{% block title %} Madlibs | Home {% endblock %} 
+
+{% block page_header %}Madlibs{% endblock %}
+
+{% block container %}
+    <form action="/story" id="first_form">
+        <h2>Give us your words:</h2>
+        {% for word in words %} 
+        <div class="inputs_container">
+            <label for="">{{word}}</label>
+            <input type="text">
+        </div>
+        {% endfor %}
+        <button type="submit">That's all!</button>
+    </form>
+{% endblock %} 
+
