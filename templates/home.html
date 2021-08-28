@@ -9,8 +9,8 @@
         <h2>Give us your words:</h2>
         {% for word in words %} 
         <div class="inputs_container">
-            <label for="">{{word}}</label>
-            <input type="text">
+            <label>{{word}}</label>
+            <input type="text" name={{word}}>
         </div>
         {% endfor %}
         <button type="submit">That's all!</button>

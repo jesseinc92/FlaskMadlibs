@@ -29,6 +29,10 @@ h1 {
     margin: 1rem;
 }
 
+#first_form label {
+    font-size: 1.25rem;
+}
+
 #first_form input {
     width: 50%;
     font-size: 1rem;
@@ -46,4 +50,12 @@ h1 {
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
+}
+
+#story_text {
+    font-size: 1.5rem;
+    color: #FEF9EF;
+    background-color: #17C3B2;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
 }

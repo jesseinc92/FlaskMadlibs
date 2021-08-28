@@ -10,4 +10,5 @@ def get_words():
 
 @app.route('/story')
 def show_story():
-    return render_template('story.html', filler=story.template)
+    answers = request.args
+    return render_template('story.html', filler=story.generate(answers))
